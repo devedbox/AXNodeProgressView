@@ -15,6 +15,7 @@
 		01F42DDD1CA3777D00E0909C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F42DDB1CA3777D00E0909C /* LaunchScreen.storyboard */; };
 		01F42DE81CA3777D00E0909C /* AXNodeProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F42DE71CA3777D00E0909C /* AXNodeProgressViewTests.m */; };
 		01F42DF31CA3777D00E0909C /* AXNodeProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F42DF21CA3777D00E0909C /* AXNodeProgressViewUITests.m */; };
+		01F42E021CA3778D00E0909C /* AXNodeProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F42E011CA3778D00E0909C /* AXNodeProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		01F42DEE1CA3777D00E0909C /* AXNodeProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AXNodeProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F42DF21CA3777D00E0909C /* AXNodeProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AXNodeProgressViewUITests.m; sourceTree = "<group>"; };
 		01F42DF41CA3777D00E0909C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01F42E001CA3778D00E0909C /* AXNodeProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AXNodeProgressView.h; path = AXNodeProgressView/AXNodeProgressView.h; sourceTree = "<group>"; };
+		01F42E011CA3778D00E0909C /* AXNodeProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AXNodeProgressView.m; path = AXNodeProgressView/AXNodeProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				01F42DD11CA3777D00E0909C /* AppDelegate.m */,
 				01F42DD31CA3777D00E0909C /* ViewController.h */,
 				01F42DD41CA3777D00E0909C /* ViewController.m */,
+				01F42E031CA3779100E0909C /* AXNodeProgressView */,
 				01F42DD61CA3777D00E0909C /* Main.storyboard */,
 				01F42DD91CA3777D00E0909C /* Assets.xcassets */,
 				01F42DDB1CA3777D00E0909C /* LaunchScreen.storyboard */,
@@ -138,6 +142,15 @@
 				01F42DF41CA3777D00E0909C /* Info.plist */,
 			);
 			path = AXNodeProgressViewUITests;
+			sourceTree = "<group>";
+		};
+		01F42E031CA3779100E0909C /* AXNodeProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				01F42E001CA3778D00E0909C /* AXNodeProgressView.h */,
+				01F42E011CA3778D00E0909C /* AXNodeProgressView.m */,
+			);
+			name = AXNodeProgressView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +285,7 @@
 			files = (
 				01F42DD51CA3777D00E0909C /* ViewController.m in Sources */,
 				01F42DD21CA3777D00E0909C /* AppDelegate.m in Sources */,
+				01F42E021CA3778D00E0909C /* AXNodeProgressView.m in Sources */,
 				01F42DCF1CA3777D00E0909C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
