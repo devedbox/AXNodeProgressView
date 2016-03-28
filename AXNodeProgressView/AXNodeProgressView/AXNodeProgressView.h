@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-IB_DESIGNABLE @interface AXNodeProgressView : UIView
+@interface AXNodeProgressView : UIView
 /// Count of node. Defaults is 4.
 @property(assign, nonatomic) IBInspectable NSInteger countOfNode;
 /// Process of node prpgress view. Can not higher than count of node.
